@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100vh;
+    background-color: #e5a4cb;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+.textosG{
+    background-color: #c16baa7e;
+    text-align: center;
+    border-radius: 10px;
+    border: 3px solid #ebd2be;
+    font-size: 45px;
+}
+
+.textos{
+    font-size: 20px;
+}
+
+.header{
+    background: #e5a4cb;
+    background: linear-gradient(60deg, #e5a4cb 8%, rgb(255, 132, 228) 14%, rgb(205, 64, 146) 86%);
+    box-sizing: border-box;
+    padding: 10px;
+    justify-content: space-between;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    background-color: white;
+}
+
+.leticia{
+    background-color: #c16baa7e;
+    border-radius: 10px;
+    border: 3px solid #ebd2be;
+    font-size: 40px;
+    margin-left: 2%;
+}
+
+.icones-header{
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+}
+
+.icon{
+    margin: 10px;
+    height: 40px;
+    width: 40px;
+}
+
+
+
+.corpo{
+    min-width: none;
+    background-color: #e5a4cb;
+    display: flex;
+    justify-content: center;
+}
+
+.container01{
+    margin-top: auto;
+    background-color: #e5a4cb;
+    display: flex-start;
+    margin-bottom: auto;
+}
+.content01{
+    
+    margin-left: 2%;
+    margin-right: 5%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    display: flex-start;
+}
+
+.container02{
+    justify-content: space-between;
+    background-color: #e5a4cb;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+.galeria{
+    margin-left: 2%;
+    margin-top: 40px;
+    flex-direction: row;
+    display: flex;
+}
+
+.fotinhas2{
+    margin-left: 15px;
+    border-radius: 5px;
+    border: 10px solid #ebd2be;
+    max-height: 340px;
+}
+
+.content02{
+    justify-content: center;
+    margin-left: 3%;
+    margin-right: 5%;
+    margin-bottom: 2%;
+}
+
+.fotinha{
+    border: 10px solid #ebd2be;
+    border-radius: 5px;
+    margin-right: 5%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    max-width: 290px;
+}
+
+.fotinha:hover{
+    max-width: 340px;
+    transition: 0.5s;
+}
+
+.footer{
+    background: #e5a4cb;
+    background: linear-gradient(60deg, #e5a4cb 5%, rgb(255, 132, 228) 17%, rgb(205, 64, 146) 86%);
+    box-sizing: border-box;
+    padding: 10px;
+    text-align: center;
+    color: #FBFBFB;
+}
